@@ -674,6 +674,11 @@ class Ui_MainWindow(object):
         self.b_3.setText(_translate("MainWindow", "P"))
         self.b_4.setText(_translate("MainWindow", "P"))
 
+
+
+
+#Functions
+
     def main_function(self):
         self.b_1.clicked.connect(self.first_function)
         self.b_2.clicked.connect(self.second_function)
@@ -778,7 +783,7 @@ class Ui_MainWindow(object):
             self.fourth_3.setText(total[0:total.index('.') + 3])
 
     def design(self):
-        MainWindow.setWindowTitle('Calculator precent')
+        MainWindow.setWindowTitle('Calculator procent')
         MainWindow.setFixedSize(891, 538)
         MainWindow.setWindowIcon(QIcon('precent.ico'))
 
