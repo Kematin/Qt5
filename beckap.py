@@ -12,3 +12,4 @@ file2.close()
 
 print("Бэкап успешно завершён, нажмите Enter для выхода")
 input()
+print('hehehhe')
